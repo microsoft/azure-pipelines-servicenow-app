@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_mioms_azpipeline.pipelinesExecution</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>pipelinesExecution</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-16 05:39:38</sys_created_on>
+        <sys_id>1af90879dbb5630040669c27db961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_1af90879dbb5630040669c27db961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-16 05:39:38</sys_updated_on>
+    </sys_user_role>
+</record_update>

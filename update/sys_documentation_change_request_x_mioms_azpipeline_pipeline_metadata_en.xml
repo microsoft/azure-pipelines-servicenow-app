@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_mioms_azpipeline_pipeline_metadata" label="Pipeline metadata" language="en" table="change_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_mioms_azpipeline_pipeline_metadata</element>
+            <help/>
+            <hint/>
+            <label>Pipeline metadata</label>
+            <language>en</language>
+            <name>change_request</name>
+            <plural>Pipeline metadatas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-16 05:46:47</sys_created_on>
+            <sys_id>78cb4cb9dbb5630040669c27db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pipeline metadata</sys_name>
+            <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+            <sys_update_name>sys_documentation_change_request_x_mioms_azpipeline_pipeline_metadata_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-16 05:46:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

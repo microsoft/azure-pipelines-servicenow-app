@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>correlation_id</col_name_string>
+        <index_col_name element="correlation_id" name="task">5d2f88750f121300348fc5ece1050ed4</index_col_name>
+        <logical_table_name>change_request</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-11-16 05:59:35</sys_created_on>
+        <sys_id>dcbe887ddbb5630040669c27db961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change_request</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_index_change_request_correlation_id</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-16 05:59:35</sys_updated_on>
+        <table display_value="Change Request" name="change_request">1064d8f90f521300348fc5ece1050e4f</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
