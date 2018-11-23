@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_mioms_azpipeline_Customer_support.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false"
+	xmlns:j="jelly:core"
+	xmlns:g="glide"
+	xmlns:j2="null"
+	xmlns:g2="null">
+	<div class="container">
+		<h1>
+			<strong>Microsoft Azure DevOps Pipelines</strong>
+		</h1>
+		<br/>
+		<div class="container">
+			<table class="table-sm table-responsive borderless">
+				<tr>
+					<td>
+						<h2>Contact Us:</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>
+							<a rel="noopener noreferrer nofollow" href="https://support.microsoft.com/en-us/contactus" target="_blank">https://support.microsoft.com/en-us/contactus/</a>
+						</h3>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</j:jelly>]]></html>
+        <name>Customer_support</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 10:06:09</sys_created_on>
+        <sys_id>eac989080f866700348fc5ece1050e63</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Customer_support</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_ui_page_eac989080f866700348fc5ece1050e63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 10:13:22</sys_updated_on>
+    </sys_ui_page>
+</record_update>
