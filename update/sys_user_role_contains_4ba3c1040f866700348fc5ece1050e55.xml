@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
-        <contains display_value="import_admin" name="import_admin">4a6a6e710a0a0bc000e6426eac13db01</contains>
+        <contains display_value="import_transformer" name="import_transformer">4a69c2f70a0a0bc001ca45414850234f</contains>
         <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-16 05:40:09</sys_created_on>
-        <sys_id>533a8879dbb5630040669c27db9619a6</sys_id>
+        <sys_created_on>2018-11-23 09:37:23</sys_created_on>
+        <sys_id>4ba3c1040f866700348fc5ece1050e55</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>import_admin.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_name>import_transformer.x_mioms_azpipeline.pipelinesExecution</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
-        <sys_update_name>sys_user_role_contains_533a8879dbb5630040669c27db9619a6</sys_update_name>
+        <sys_update_name>sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-16 05:40:09</sys_updated_on>
+        <sys_updated_on>2018-11-23 09:37:23</sys_updated_on>
     </sys_user_role_contains>
 </record_update>
