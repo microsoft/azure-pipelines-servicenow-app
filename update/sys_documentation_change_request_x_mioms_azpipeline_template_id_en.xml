@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_mioms_azpipeline_template_id" label="Template Id" language="en" table="change_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_mioms_azpipeline_template_id</element>
+            <help/>
+            <hint/>
+            <label>Template Id</label>
+            <language>en</language>
+            <name>change_request</name>
+            <plural>Template Ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-04 08:40:12</sys_created_on>
+            <sys_id>85a2f823db17234040669c27db96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Template Id</sys_name>
+            <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+            <sys_update_name>sys_documentation_change_request_x_mioms_azpipeline_template_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-04 08:40:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
