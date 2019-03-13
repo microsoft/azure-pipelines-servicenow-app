@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-13 08:32:45</sys_created_on>
+        <sys_id>1bb3971f0f483340348fc5ece1050e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9793d35f0f483340348fc5ece1050e1a</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_1bb3971f0f483340348fc5ece1050e45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-13 08:32:45</sys_updated_on>
+        <web_service_operation display_value="check_compat">c413d71f0f483340348fc5ece1050ee2</web_service_operation>
+        <web_service_query_parameter display_value="app_major_version">9793d35f0f483340348fc5ece1050e1a</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>
