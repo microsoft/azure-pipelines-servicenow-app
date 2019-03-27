@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>f64ab479db39630040669c27db961959</enforce_acl>
+        <http_method>GET</http_method>
+        <name>check_compat</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+   var result = {};
+   var success_message = "SNOW App version is greater than equal to required major version. App is compatible";
+   var failure_message = "SNOW App version is less than required major version. App is not compatible";
+   var no_record_found_message = "No record found for active app - 'x_mioms_azpipeline'";
+   var bad_request_message = "App major version is not passed in request.";
+	
+	
+   var queryParams = request.queryParams;
+	var inputMajorVersion = queryParams.app_major_version;
+	
+	if (inputMajorVersion && inputMajorVersion.length > 0 
+		&& inputMajorVersion[0] && inputMajorVersion[0].length > 0){
+		
+		var inputVersion = inputMajorVersion[0];
+		
+		var appRecord = new GlideRecord('sys_scope');
+		appRecord.addQuery('scope', 'x_mioms_azpipeline');
+		appRecord.addActiveQuery();
+		appRecord.query();
+		
+		if (appRecord.next()){
+			var appVersion = appRecord.version;
+			result.version  = appVersion;
+			result.name = appRecord.name;
+			result.active = appRecord.active;
+			
+			var parts = appVersion.split('.');
+			if (parts.length > 0){
+				var currentMajorVersion = parts[0];
+				if (currentMajorVersion && currentMajorVersion.length > 0){
+					result.currentMajorVersion = currentMajorVersion;
+					result.inputMajorVersion = inputVersion;
+					if (parseInt(currentMajorVersion, 10) >=  parseInt(inputVersion, 10)){
+						result.http_status = "200";
+						result.message = success_message;
+					}
+					else
+					{
+						result.http_status = "400";
+						result.message = failure_message;
+					}	
+				}
+			}
+		}
+		else{
+			result.http_status = "404";
+			result.message = no_record_found_message;
+		}
+	}
+	else{
+		 result.http_status = "400";
+		 result.message = bad_request_message;
+	}
+	
+	response.setStatus(result.http_status);
+	response.setBody(result);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_mioms_azpipeline/app_version</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-13 08:30:49</sys_created_on>
+        <sys_id>c413d71f0f483340348fc5ece1050ee2</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>check_compat</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_ws_operation_c413d71f0f483340348fc5ece1050ee2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-13 10:34:15</sys_updated_on>
+        <web_service_definition display_value="app_version">bfdfc79b0f483340348fc5ece1050e9c</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

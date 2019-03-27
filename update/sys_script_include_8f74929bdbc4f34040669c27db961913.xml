@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_mioms_azpipeline.importUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>importUtils</name>
+        <script><![CDATA[var importUtils = Class.create();
+importUtils.prototype = {
+    initialize: function() {},
+	
+	postChangeRequest: function(requestObject){
+		
+		try {
+			var result = {};
+			var importSetRowChangeRequest = 'x_mioms_azpipeline_change_request_import';	
+			
+			// insert/update record in import set table
+			var returnObj = new GlideRecord(importSetRowChangeRequest);
+            returnObj.initialize();
+            for (var key in requestObject) {
+                returnObj[key] = requestObject[key];
+            }
+            var resultSysId = returnObj.insert();
+		
+
+			//Look up the record that was just created to check how the transform map went
+			var importSetRow = new GlideRecord(importSetRowChangeRequest);
+			importSetRow.get(resultSysId);
+			var importSetRowStatus = importSetRow.sys_import_state;
+			
+			//setting sys_id and import set status in response
+			result.status = importSetRowStatus;
+			
+			// check status of import set record
+			if (importSetRowStatus == 'ignored' || importSetRowStatus == 'ignore'){
+				result.http_status = '200';
+				result.status_message = "Request payload accepted and processed. Data provided matched local data set, update was ignored for correlation id "+requestObject.u_correlation_id;
+			}
+			
+			else if (importSetRowStatus == 'updated'){
+				result.http_status = '200';
+				result.status_message = "Request payload accepted and processed. Change request record is updated";
+			}
+			
+			else if (importSetRowStatus == 'inserted'){
+				result.http_status = '200';
+				result.status_message = "Request payload accepted and processed. Change request is created";
+			}
+			
+			else {
+				var msg = "Unexpected import result during change request transform: "+ importSetRow.sys_import_state.toString() + ' ' + importSetRow.sys_row_error.error_message.toString() + ' and error code is '+importSetRow.sys_row_error.error_code.toString();
+				result.info = resultSysId;
+				result.http_status = "500";
+				result.status_message = msg;
+			}
+			
+			// Fetch change request record created/updated and populate details in response
+			if (requestObject.u_correlation_id)
+			{
+				var changeRequestRecord = new GlideRecord("change_request");
+				changeRequestRecord.addQuery("correlation_id", requestObject.u_correlation_id );
+				changeRequestRecord.query();
+				if (changeRequestRecord.next()){
+					result.number = changeRequestRecord.number;
+					result.sys_id = changeRequestRecord.sys_id;
+				}
+			}
+			
+			return result;
+			
+		}catch (ex){
+				result.http_status = "500";
+				result.status_message = "Internal ServiceNow error "+ ex;
+			    gs.error(JSON.stringify(result));
+			    return result;
+		}
+	},
+
+    type: 'importUtils'
+};
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-13 04:30:17</sys_created_on>
+        <sys_id>8f74929bdbc4f34040669c27db961913</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>importUtils</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_script_include_8f74929bdbc4f34040669c27db961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-18 08:18:27</sys_updated_on>
+    </sys_script_include>
+</record_update>
