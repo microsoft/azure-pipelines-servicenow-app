@@ -2,34 +2,49 @@
 <record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
         <choice_action>create</choice_action>
-        <coalesce>false</coalesce>
+        <coalesce>true</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="change_request_imports">2a6c80f9dbb5630040669c27db9619f9</map>
         <reference_value_field/>
-        <source_field>u_correlation_id</source_field>
+        <source_field>[Script]</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
+var gr = new GlideRecord('change_request');
 
-	// Add your code here
-	return ""; // return the value to be put into the target field
-
+// 1. Lookup by correlation_id if correlation_id is present in source data
+if ((!source.u_correlation_id || !source.u_correlation_id.nil())){
+    gs.addInfoMessage("Querying by correlation id");
+	gr.addQuery('correlation_id',source.u_correlation_id); 
+} else{
+	// 2. Lookup by number
+	gs.addInfoMessage("Querying by change request number");
+    gr.addQuery('number',source.u_number); 
+}
+gr.query();
+if (gr.next()) {
+	gs.addInfoMessage("Record found");
+    return gr.sys_id;
+} else {
+	gs.addInfoMessage("Record not found");
+	return -1;
+}
 })(source);]]></source_script>
         <source_table>x_mioms_azpipeline_change_request_import</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-16 05:49:55</sys_created_on>
-        <sys_id>da7c843ddbb5630040669c27db9619cd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>u_correlation_id</sys_name>
+        <sys_created_on>2019-04-12 04:39:11</sys_created_on>
+        <sys_id>913d70cddbf4b3002df673278c9619d7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>[Script]</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
-        <sys_update_name>sys_transform_entry_da7c843ddbb5630040669c27db9619cd</sys_update_name>
+        <sys_update_name>sys_transform_entry_913d70cddbf4b3002df673278c9619d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-12 04:41:52</sys_updated_on>
-        <target_field>correlation_id</target_field>
+        <sys_updated_on>2019-04-12 05:42:18</sys_updated_on>
+        <target_field>sys_id</target_field>
         <target_table>change_request</target_table>
-        <use_source_script>false</use_source_script>
+        <use_source_script>true</use_source_script>
     </sys_transform_entry>
 </record_update>
