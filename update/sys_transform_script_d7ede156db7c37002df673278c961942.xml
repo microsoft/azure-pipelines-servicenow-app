@@ -8,17 +8,19 @@
 
 	var correlation_id = source.u_correlation_id;
     var number = source.u_number;
-	var gr = new GlideRecord('change_request');
 	var queryRecords = true;
 	var queryByNumber = false;
 	
+	var count = new GlideAggregate('change_request');
+    count.addAggregate('COUNT');
+	
 	if (correlation_id && !correlation_id.nil() && correlation_id != ""){
 		log.info("onBefore script: Correlation id is not empty in source record, will be querying by correlation id");
-		gr.addQuery('correlation_id',correlation_id); 
+		count.addQuery('correlation_id',correlation_id);
 	} else if (number && !number.nil() && number != "") {
 		log.info("onBefore script: Change request number is not empty in source record, will be querying by number ");
 		queryByNumber = true;
-		 gr.addQuery('number',number);
+		count.addQuery('number',number);
 	} else {
 		queryRecords = false;
 		log.info("onBefore script: Correlation id and number both are null or empty in source record. Will be creating new record.");
@@ -26,8 +28,11 @@
 	
 if (queryRecords){
 	log.info("onBefore script: Executing query");
-	gr.query();
-	var matchingRecordsCount = gr.getRowCount();
+	count.query();
+	var matchingRecordsCount = 0;
+	if (count.next()){
+			matchingRecordsCount = count.getAggregate('COUNT');
+		}
 	log.info("onBefore script: Number of matching records found are: "+matchingRecordsCount);
 	
 if (matchingRecordsCount == 0 && queryByNumber){
@@ -44,14 +49,14 @@ if (matchingRecordsCount == 0 && queryByNumber){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-16 05:23:10</sys_created_on>
         <sys_id>d7ede156db7c37002df673278c961942</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_transform_script_d7ede156db7c37002df673278c961942</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-17 04:07:56</sys_updated_on>
+        <sys_updated_on>2019-04-23 05:41:19</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
 </record_update>
