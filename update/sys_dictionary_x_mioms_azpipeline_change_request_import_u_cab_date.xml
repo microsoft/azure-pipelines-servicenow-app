@@ -49,7 +49,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-16 05:49:33</sys_created_on>
-        <sys_id>9aac5eb70f943b40348fc5ece1050e60</sys_id>
+        <sys_id>d56082ab0ffff740348fc5ece1050eb3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cab date</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_cab_date</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-03-27 04:04:53</sys_updated_on>
+        <sys_updated_on>2019-09-16 07:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
