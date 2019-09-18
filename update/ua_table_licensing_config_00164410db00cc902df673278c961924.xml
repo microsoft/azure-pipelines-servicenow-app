@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-16 05:49:33</sys_created_on>
-        <sys_id>c260c2ab0ffff740348fc5ece1050e0f</sys_id>
+        <sys_id>00164410db00cc902df673278c961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_mioms_azpipeline_change_request_import</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
-        <sys_update_name>ua_table_licensing_config_c260c2ab0ffff740348fc5ece1050e0f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_00164410db00cc902df673278c961924</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-16 05:49:33</sys_updated_on>
     </ua_table_licensing_config>

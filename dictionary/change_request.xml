@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true,text_index_translations=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Change Request" max_length="40" name="change_request" sizeclass="686" text_index="true" type="collection">
+    <element attributes="email_client=true,text_index_translations=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Change Request" max_length="40" name="change_request" sizeclass="688" text_index="true" type="collection">
         <element label="Pipeline metadata" max_length="4000" name="x_mioms_azpipeline_pipeline_metadata" read_only="true" type="string"/>
         <element label="Template Id" max_length="4000" name="x_mioms_azpipeline_template_id" type="string"/>
     </element>
