@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_review_status" label="Review status" language="en" table="x_mioms_azpipeline_change_request_import">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_review_status</element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
@@ -16,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="change_request">type=standard^x_mioms_azpipeline_template_idISNOTEMPTY^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="standard"/>
+        <filter_condition table="change_request">type=standard^x_mioms_azpipeline_template_idISNOTEMPTY^EQ<item display_value="Standard" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="standard"/>
             <item endquery="false" field="x_mioms_azpipeline_template_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
@@ -32,19 +31,14 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-	gs.info("Running 'Apply template' business rule");
 	if (current == null){
 		return;
-	}
+	}	
 	var template_id = current.getValue("x_mioms_azpipeline_template_id");
 	if (template_id != null) {
 		var template = new GlideTemplate.get(template_id);
-		template.apply(current);		
-		gs.info("Standard template applied to change request. Template ID : "+template_id);
-	}
-	else {
-			gs.debug("Standard Template Id is null so not applying template");
+		gs.info("Applying template :"+template_id);
+		template.apply(current);
 	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -53,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6fe567b0f943b40348fc5ece1050e90</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Apply template</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
@@ -61,7 +55,7 @@
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_script_a6fe567b0f943b40348fc5ece1050e90</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-18 06:10:18</sys_updated_on>
+        <sys_updated_on>2019-09-24 06:22:14</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

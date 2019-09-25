@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_sla_due" table="x_mioms_azpipeline_change_request_import">
         <active>true</active>
         <array>false</array>

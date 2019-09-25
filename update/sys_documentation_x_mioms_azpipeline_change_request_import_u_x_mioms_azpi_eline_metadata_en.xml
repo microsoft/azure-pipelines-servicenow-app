@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_x_mioms_azpi_eline_metadata" label="u_x_mioms_azpipeline_pipeline_metadata" language="en" table="x_mioms_azpipeline_change_request_import">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_x_mioms_azpi_eline_metadata</element>

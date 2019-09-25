@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_entry">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
         <choice_action>create</choice_action>
         <coalesce>false</coalesce>

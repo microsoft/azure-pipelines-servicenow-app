@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ws_query_parameter">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
     <sys_ws_query_parameter action="INSERT_OR_UPDATE">
         <example_value>1</example_value>
         <name>app_major_version</name>

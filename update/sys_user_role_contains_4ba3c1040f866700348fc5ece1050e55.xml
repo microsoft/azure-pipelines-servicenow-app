@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="import_transformer" name="import_transformer">4a69c2f70a0a0bc001ca45414850234f</contains>
         <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>

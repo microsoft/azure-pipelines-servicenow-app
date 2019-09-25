@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="change_request_imports" max_length="40" name="x_mioms_azpipeline_change_request_import" type="collection">
         <element label="Template Id" max_length="4000" name="template_id" type="string"/>
         <element attributes="import_attribute_name=u_active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
