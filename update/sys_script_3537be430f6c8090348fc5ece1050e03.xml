@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>change_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="change_request">type=standard^x_mioms_azpipeline_template_idISNOTEMPTY^EQ<item display_value="Standard" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="standard"/>
+            <item endquery="false" field="x_mioms_azpipeline_template_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Apply template (After)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var template_id = current.getValue('x_mioms_azpipeline_template_id');
+	var template = new GlideRecord('sys_template');
+	var number = current.getValue("number");
+	var correlation_id = current.getValue("correlation_id");
+	var logId = correlation_id;
+	if (number) {
+		logId = number;
+	}
+	gs.info("["+logId+"][After rule] Executing Apply template After BR");
+	if(template.get(template_id)){
+		
+		gs.info("["+logId+"][After rule]Applying child template :"+template_id);
+		applyChildTemplates(current.getRecordClassName(),current.getUniqueValue(), template.getValue('next_child'));
+	}
+
+	function applyChildTemplates(parentTable, parentID, nextID){
+		gs.info("["+logId+"][After rule]NextID :"+nextID);
+		while (nextID) {
+			var childtemplate = new GlideRecord('sys_template');
+			if(childtemplate.get(nextID)){
+				var childGR = new GlideRecord(childtemplate.getValue('table'));
+				childGR.initialize();
+				var templateArray = childtemplate.template.toString().split('^');
+				for(var i=0; i<templateArray.length; i++){
+					var templatefield = templateArray[i].toString().split('=');
+					if(templatefield != 'EQ'){
+						childGR[templatefield[0]] = templatefield[1].toString();
+					}
+				}
+				childGR[parentTable] = parentID.toString();
+				childGR.insert();
+				gs.info("["+logId+"][After rule]Inserted child record");
+				var childID = childtemplate.getValue('next_child');
+				if (childID) {
+					gs.info("["+logId+"][After rule]Applying template to next child");
+					applyChildTemplates(childGR.getTableName(), childGR.getUniqueValue(), childID);
+				}
+
+				nextID = childtemplate.getValue('next');
+			}else
+				break;
+		}
+	}
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-22 04:33:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3537be430f6c8090348fc5ece1050e03</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Apply template (After)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_script_3537be430f6c8090348fc5ece1050e03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-22 05:31:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3537be430f6c8090348fc5ece1050e03"/>
+</record_update>
