@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-16 05:49:35</sys_created_on>
-        <sys_id>7b060410db00cc902df673278c9619e1</sys_id>
+        <sys_id>7830fa1bdb3c80102df673278c96190e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Conflict status</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_conflict_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-21 11:55:17</sys_updated_on>
+        <sys_updated_on>2019-11-04 08:55:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
