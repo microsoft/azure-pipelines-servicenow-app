@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Azure DevOps Pipeline metadata" section_id="99a69c35dbf5630040669c27db9619cc" sys_domain="global" table="change_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_mioms_azpipeline_pipeline_metadata</element>

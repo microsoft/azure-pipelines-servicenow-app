@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_map">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
     <sys_transform_map action="INSERT_OR_UPDATE">
         <active>true</active>
         <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>No</enforce_mandatory_fields>
         <name>change_request_imports</name>
         <order>100</order>

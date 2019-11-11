@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
     <sys_transform_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <map display_value="change_request_imports">2a6c80f9dbb5630040669c27db9619f9</map>
@@ -15,32 +14,36 @@
     count.addAggregate('COUNT');
 	
 	if (correlation_id && !correlation_id.nil() && correlation_id != ""){
-		log.info("onBefore script: Correlation id is not empty in source record, will be querying by correlation id");
+		log.info("["+correlation_id+"]Validation script: Correlation id is not empty in source record, will be querying by correlation id");
 		count.addQuery('correlation_id',correlation_id);
 	} else if (number && !number.nil() && number != "") {
-		log.info("onBefore script: Change request number is not empty in source record, will be querying by number ");
+		log.info("["+number+"]Validation script: Change request number is not empty in source record, will be querying by number");
 		queryByNumber = true;
 		count.addQuery('number',number);
 	} else {
 		queryRecords = false;
-		log.info("onBefore script: Correlation id and number both are null or empty in source record. Will be creating new record.");
+		log.info("Validation script: Correlation id and number both are null or empty in source record. Will be creating new record.");
+	}
+	
+	var logId = correlation_id;
+	if (queryByNumber) {
+		logId = number;
 	}
 	
 if (queryRecords){
-	log.info("onBefore script: Executing query");
+	log.info("["+logId+"]Validation script: Executing query");
 	count.query();
 	var matchingRecordsCount = 0;
 	if (count.next()){
-			matchingRecordsCount = count.getAggregate('COUNT');
-		}
-	log.info("onBefore script: Number of matching records found are: "+matchingRecordsCount);
-	
-if (matchingRecordsCount == 0 && queryByNumber){
+		matchingRecordsCount = count.getAggregate('COUNT');
+	}
+	log.info("["+logId+"]Validation script: Number of matching records found are: "+matchingRecordsCount);
+	if (matchingRecordsCount == 0 && queryByNumber){
 	error = true;
-	error_message = "onBefore script: No record found with change request number : "+number+". Stopping the transformation";
+	error_message = "["+logId+"]Validation script: No record found with change request number : "+number+". Stopping the transformation";
 	} else if (matchingRecordsCount > 1){
 	error = true;
-	error_message = "onBefore script: More than 1 matching record found. Stopping the transformation.";
+	error_message = "["+logId+"]Validation script: More than 1 matching record found. Stopping the transformation.";
 	}
 }
 
@@ -49,14 +52,14 @@ if (matchingRecordsCount == 0 && queryByNumber){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-16 05:23:10</sys_created_on>
         <sys_id>d7ede156db7c37002df673278c961942</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_transform_script_d7ede156db7c37002df673278c961942</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-23 05:41:19</sys_updated_on>
+        <sys_updated_on>2019-10-22 04:52:21</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
 </record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Change Request" source="com.snc.change_request">9f5498f90f521300348fc5ece1050eec</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-04 08:44:18</sys_created_on>
+        <sys_id>e4aafa211b498010c0c82fc4bd4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-04 08:44:18</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
