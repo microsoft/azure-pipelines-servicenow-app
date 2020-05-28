@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_mioms_azpipeline_test</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:13:14</sys_created_on>
+        <sys_id>2393fb2e1b420010c0c82fc4bd4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mioms_azpipeline_test</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>ua_table_licensing_config_2393fb2e1b420010c0c82fc4bd4bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:13:14</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>ua_table_licensing_config_2393fb2e1b420010c0c82fc4bd4bcb6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_mioms_azpipeline_test</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-03 09:13:14</sys_created_on><sys_id>2393fb2e1b420010c0c82fc4bd4bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_mioms_azpipeline_test</sys_name><sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package><sys_policy/><sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope><sys_update_name>ua_table_licensing_config_2393fb2e1b420010c0c82fc4bd4bcb6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-03 09:13:14</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1113531877</payload_hash>
+        <record_name>x_mioms_azpipeline_test</record_name>
+        <reverted_from/>
+        <source>dbca32611b498010c0c82fc4bd4bcb65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:13:14</sys_created_on>
+        <sys_id>6793fb2e1b420010c0c82fc4bd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f6aae20f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:13:14</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>6f93fb2e79420010b28865baa4b0b76f</update_guid>
+        <update_guid_history>6f93fb2e79420010b28865baa4b0b76f:1113531877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:23:30</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>808a143c9a73431a9908db2e72eff784</sys_id>
+        <sys_metadata>2393fb2e1b420010c0c82fc4bd4bcb6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mioms_azpipeline_test</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_2393fb2e1b420010c0c82fc4bd4bcb6e</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_2393fb2e1b420010c0c82fc4bd4bcb6e">6793fb2e1b420010c0c82fc4bd4bcb70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:23:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

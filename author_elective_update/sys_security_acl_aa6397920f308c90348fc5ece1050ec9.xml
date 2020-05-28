@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>sys_choice record can be read records by user having role x_mioms_azpipeline.pipelinesExecution</description>
+        <name>sys_choice</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 09:00:15</sys_created_on>
+        <sys_id>aa6397920f308c90348fc5ece1050ec9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>sys_choice</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_security_acl_aa6397920f308c90348fc5ece1050ec9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 07:17:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_security_acl_aa6397920f308c90348fc5ece1050ec9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>sys_choice record can be read records by user having role x_mioms_azpipeline.pipelinesExecution</description>
+        <name>sys_choice</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-01 09:00:15</sys_created_on>
+        <sys_id>aa6397920f308c90348fc5ece1050ec9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>sys_choice</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_security_acl_aa6397920f308c90348fc5ece1050ec9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 07:17:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-665983845</payload_hash>
+        <record_name>sys_choice</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 10:52:10</sys_created_on>
+        <sys_id>39745073dbfcc0102df673278c961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e3b3183020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 10:52:10</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f574507393fcc010db08d7d5a35e5d97</update_guid>
+        <update_guid_history>09436fe3b03cc0100bfea67c48fa2f91:570282089,6d681babaef8c010aa9303c8c34bb43d:635145724,f0c6936b20f8c010c3bb8bf1aac65260:1483542599,772b2e139d3c8010372c713a89812163:174699920,772b2e139d3c8010372c713a89812163:174699920,36f75f9681308c90369942d964621205:1483542599,afd7db9665308c900be504f0db8d5e8c:58276693,6b7493d264308c90c5bb3fcd8649d05b:342343898</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-11 08:48:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>586f6f482e6d4e9486c5a92142aba410</sys_id>
+        <sys_metadata>aa6397920f308c90348fc5ece1050ec9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_choice</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent display_value="sys_choice">2e8d00310f121300348fc5ece1050ed4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_security_acl_aa6397920f308c90348fc5ece1050ec9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_aa6397920f308c90348fc5ece1050ec9">39745073dbfcc0102df673278c961997</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-11 08:48:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
