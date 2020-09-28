@@ -18,16 +18,16 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_mioms_azpipeline</source>
-        <store_correlation_id>REPOAPP0000289070</store_correlation_id>
-        <store_url/>
+        <store_correlation_id>APP0020069</store_correlation_id>
+        <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-16 05:32:29</sys_created_on>
         <sys_id>fa788cb5dbb5630040669c27db961940</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-28 08:50:45</sys_updated_on>
+        <sys_updated_on>2020-09-28 08:51:21</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
