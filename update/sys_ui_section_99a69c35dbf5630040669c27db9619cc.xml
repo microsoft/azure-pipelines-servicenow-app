@@ -4,13 +4,55 @@
             <element>x_mioms_azpipeline_pipeline_metadata</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-16 06:34:21</sys_created_on>
-            <sys_id>a5a6dc35dbf5630040669c27db961900</sys_id>
+            <sys_created_on>2020-09-30 11:01:35</sys_created_on>
+            <sys_id>c9437ff11b271090c0c82fc4bd4bcbd9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Azure DevOps Pipeline metadata" display_value="Azure DevOps Pipeline metadata" name="change_request" sys_domain="global" view="Default view">99a69c35dbf5630040669c27db9619cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-16 06:34:21</sys_updated_on>
+            <sys_updated_on>2020-09-30 11:01:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_mioms_azpipeline_build_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 11:01:35</sys_created_on>
+            <sys_id>41437ff11b271090c0c82fc4bd4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Azure DevOps Pipeline metadata" display_value="Azure DevOps Pipeline metadata" name="change_request" sys_domain="global" view="Default view">99a69c35dbf5630040669c27db9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 11:01:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_mioms_azpipeline_stage_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 11:01:35</sys_created_on>
+            <sys_id>c5437ff11b271090c0c82fc4bd4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Azure DevOps Pipeline metadata" display_value="Azure DevOps Pipeline metadata" name="change_request" sys_domain="global" view="Default view">99a69c35dbf5630040669c27db9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 11:01:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_mioms_azpipeline_stage_attempt</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 11:01:35</sys_created_on>
+            <sys_id>4d437ff11b271090c0c82fc4bd4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Azure DevOps Pipeline metadata" display_value="Azure DevOps Pipeline metadata" name="change_request" sys_domain="global" view="Default view">99a69c35dbf5630040669c27db9619cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 11:01:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

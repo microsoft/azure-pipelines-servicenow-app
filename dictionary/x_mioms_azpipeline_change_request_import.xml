@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="change_request_imports" max_length="40" name="x_mioms_azpipeline_change_request_import" type="collection">
-        <element label="Template Id" max_length="4000" name="template_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=template_id" label="Template Id" max_length="4000" name="template_id" type="string"/>
         <element attributes="import_attribute_name=u_active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
         <element attributes="import_attribute_name=u_activity_due,edge_encryption_enabled=true" label="Activity due" max_length="40" name="u_activity_due" type="string"/>
         <element attributes="import_attribute_name=u_additional_assignee_list,edge_encryption_enabled=true" label="Additional assignee list" max_length="4000" name="u_additional_assignee_list" type="string"/>
@@ -62,6 +62,7 @@
         <element attributes="import_attribute_name=u_production_system,edge_encryption_enabled=true" label="Production system" max_length="4000" name="u_production_system" type="string"/>
         <element attributes="import_attribute_name=u_reason,edge_encryption_enabled=true" label="Reason" max_length="4000" name="u_reason" type="string"/>
         <element attributes="import_attribute_name=u_reassignment_count,edge_encryption_enabled=true" label="Reassignment count" max_length="40" name="u_reassignment_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_rejection_goto" label="Rejection goto" max_length="40" name="u_rejection_goto" type="string"/>
         <element attributes="import_attribute_name=u_requested_by,edge_encryption_enabled=true" label="Requested by" max_length="4000" name="u_requested_by" type="string"/>
         <element attributes="import_attribute_name=u_requested_by_date,edge_encryption_enabled=true" label="Requested by date" max_length="40" name="u_requested_by_date" type="string"/>
         <element attributes="import_attribute_name=u_review_comments,edge_encryption_enabled=true" label="Review comments" max_length="4000" name="u_review_comments" type="string"/>
@@ -70,6 +71,7 @@
         <element attributes="import_attribute_name=u_risk,edge_encryption_enabled=true" label="Risk" max_length="40" name="u_risk" type="string"/>
         <element attributes="import_attribute_name=u_risk_impact_analysis,edge_encryption_enabled=true" label="Risk impact analysis" max_length="4000" name="u_risk_impact_analysis" type="string"/>
         <element attributes="import_attribute_name=u_scope,edge_encryption_enabled=true" label="Scope" max_length="4000" name="u_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_service_offering" label="Service offering" max_length="40" name="u_service_offering" type="string"/>
         <element attributes="import_attribute_name=u_short_description,edge_encryption_enabled=true" label="Short description" max_length="4000" name="u_short_description" type="string"/>
         <element attributes="import_attribute_name=u_sla_due,edge_encryption_enabled=true" label="SLA due" max_length="40" name="u_sla_due" type="string"/>
         <element attributes="import_attribute_name=u_start_date,edge_encryption_enabled=true" label="Start date" max_length="40" name="u_start_date" type="string"/>
@@ -78,6 +80,7 @@
         <element attributes="import_attribute_name=u_test_plan,edge_encryption_enabled=true" label="Test plan" max_length="4000" name="u_test_plan" type="string"/>
         <element attributes="import_attribute_name=u_time_worked,edge_encryption_enabled=true" label="Time worked" max_length="40" name="u_time_worked" type="string"/>
         <element attributes="import_attribute_name=u_type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_unauthorized" label="Unauthorized" max_length="40" name="u_unauthorized" type="string"/>
         <element attributes="import_attribute_name=u_upon_approval,edge_encryption_enabled=true" label="Upon approval" max_length="4000" name="u_upon_approval" type="string"/>
         <element attributes="import_attribute_name=u_upon_reject,edge_encryption_enabled=true" label="Upon reject" max_length="4000" name="u_upon_reject" type="string"/>
         <element attributes="import_attribute_name=u_urgency,edge_encryption_enabled=true" label="Urgency" max_length="40" name="u_urgency" type="string"/>
@@ -89,6 +92,12 @@
         <element attributes="import_attribute_name=u_work_notes,edge_encryption_enabled=true" label="Work notes" max_length="4000" name="u_work_notes" type="string"/>
         <element attributes="import_attribute_name=u_work_notes_list,edge_encryption_enabled=true" label="Work notes list" max_length="4000" name="u_work_notes_list" type="string"/>
         <element attributes="import_attribute_name=u_work_start,edge_encryption_enabled=true" label="Work start" max_length="40" name="u_work_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_build_id" label="Build Id" max_length="40" name="u_x_mioms_azpipeline_build_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_stage_id" label="Stage Id" max_length="40" name="u_x_mioms_azpipeline_stage_id" type="string"/>
         <element attributes="import_attribute_name=u_x_mioms_azpipeline_pipeline_metadata,edge_encryption_enabled=true" label="u_x_mioms_azpipeline_pipeline_metadata" max_length="4000" name="u_x_mioms_azpi_eline_metadata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_template_id" label="u_x_mioms_azpipeline_template_id" max_length="40" name="u_x_mioms_azpi_ne_template_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_stage_attempt" label="Stage Attempt" max_length="40" name="u_x_mioms_azpi__stage_attempt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_vsts_integ_vsts_release_info" label="u_x_mioms_vsts_integ_vsts_release_info" max_length="40" name="u_x_mioms_vsts_s_release_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_vsts_integ_vsts_meta_data" label="u_x_mioms_vsts_integ_vsts_meta_data" max_length="40" name="u_x_mioms_vsts_vsts_meta_data" type="string"/>
     </element>
 </database>

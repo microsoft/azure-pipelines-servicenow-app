@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains/>
+        <role display_value="personalize_choices" name="personalize_choices">3016d3e0a9fe3dba016a03916401c2d7</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-21 11:22:21</sys_created_on>
+        <sys_id>a57b87720f208090348fc5ece1050ea0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.personalize_choices</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_a57b87720f208090348fc5ece1050ea0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-21 11:22:21</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_user_role_contains_a57b87720f208090348fc5ece1050ea0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains/>
+        <role display_value="personalize_choices" name="personalize_choices">3016d3e0a9fe3dba016a03916401c2d7</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-21 11:22:21</sys_created_on>
+        <sys_id>a57b87720f208090348fc5ece1050ea0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.personalize_choices</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_a57b87720f208090348fc5ece1050ea0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-21 11:22:21</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>-1221259512</payload_hash>
+        <record_name>.personalize_choices</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 05:23:25</sys_created_on>
+        <sys_id>c8d2d4ccdbc904102df673278c9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e3f2ae4970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 05:23:25</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>88d2d4cc98c90410a3ae7670201a15bb</update_guid>
+        <update_guid_history>a9a29c8cdcc9041017ff51af7d6ff22b:-1939122970,4d541833defcc0101fe80f5b5aea19a5:-1939122970,61203a1b8e3c80103f83f9e34b086717:-1939122970,b32b2e13353c8010c3a11004fa6b5050:1088210117,b32b2e13353c8010c3a11004fa6b5050:1088210117,5a025ff661208090401c70b833e164b3:-1939122970,318bc7729a208090b5e17b07e142d4d1:-792625550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-11 08:36:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>0fa39195696746bcb375b6bf05609d44</sys_id>
+        <sys_metadata>a57b87720f208090348fc5ece1050ea0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.personalize_choices</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_a57b87720f208090348fc5ece1050ea0</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_a57b87720f208090348fc5ece1050ea0">c8d2d4ccdbc904102df673278c9619bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-11 08:36:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

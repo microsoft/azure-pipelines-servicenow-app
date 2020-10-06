@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_unauthorized" label="Unauthorized" language="en" table="x_mioms_azpipeline_change_request_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_unauthorized</element>
+            <help/>
+            <hint/>
+            <label>Unauthorized</label>
+            <language>en</language>
+            <name>x_mioms_azpipeline_change_request_import</name>
+            <plural>Unauthorized</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-28 08:10:11</sys_created_on>
+            <sys_id>fad874511be75c50c0c82fc4bd4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Unauthorized</sys_name>
+            <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+            <sys_update_name>sys_documentation_x_mioms_azpipeline_change_request_import_u_unauthorized_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-28 08:10:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
