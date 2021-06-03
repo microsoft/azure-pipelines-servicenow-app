@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="change_request_imports" max_length="40" name="x_mioms_azpipeline_change_request_import" type="collection">
+    <element extends="sys_import_set_row" label="change_request_imports" max_length="40" name="x_mioms_azpipeline_change_request_import" sizeclass="18" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=template_id" label="Template Id" max_length="4000" name="template_id" type="string"/>
         <element attributes="import_attribute_name=u_active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
         <element attributes="import_attribute_name=u_activity_due,edge_encryption_enabled=true" label="Activity due" max_length="40" name="u_activity_due" type="string"/>

@@ -68,7 +68,7 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>99a69c35dbf5630040669c27db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Azure DevOps Pipeline metadata</sys_name>
+            <sys_name>change_request</sys_name>
             <sys_overrides/>
             <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
             <sys_policy/>
