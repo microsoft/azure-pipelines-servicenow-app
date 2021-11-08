@@ -22,6 +22,7 @@
         <redirect_url>https://shashban.visualstudio.com/_admin/oauth2/callback</redirect_url>
         <refresh_token_lifespan>8640000</refresh_token_lifespan>
         <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
         <revoke_token_url/>
         <salt/>
         <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
