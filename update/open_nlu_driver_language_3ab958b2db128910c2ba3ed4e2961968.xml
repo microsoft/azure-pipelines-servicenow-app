@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="open_nlu_driver_language">
+    <open_nlu_driver_language action="INSERT_OR_UPDATE">
+        <code>pt</code>
+        <driver display_value="ServiceNow NLU">64c023c17300330021a044764df6a70e</driver>
+        <driver_codes>pt</driver_codes>
+        <language>Portuguese</language>
+        <sys_class_name>open_nlu_driver_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 07:00:04</sys_created_on>
+        <sys_id>3ab958b2db128910c2ba3ed4e2961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portuguese</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>open_nlu_driver_language_3ab958b2db128910c2ba3ed4e2961968</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 07:00:04</sys_updated_on>
+    </open_nlu_driver_language>
+</record_update>
