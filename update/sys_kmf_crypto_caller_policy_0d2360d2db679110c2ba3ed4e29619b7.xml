@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
+        <crypto_spec display_value="com_glide_external_app_glideencrypter --- Symmetric Key Wrapping/Unwrapping">a393a2415322201040d8ddeeff7b1254</crypto_spec>
+        <granular_operation/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>c917d38c6f7442004c327b2f5d3ee4b4</owner>
+        <policy_name>AutoGen-script-ff565be6773120105d7b3882a9106165-global.com_glide_external_app_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash>kFAfhhWKZDdDupnpJs5lsz98t0mbQvOzXkg4atwubTk=</script_hash>
+        <script_table>sysauto_script</script_table>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-05 17:53:51</sys_created_on>
+        <sys_id>0d2360d2db679110c2ba3ed4e29619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-script-ff565be6773120105d7b3882a9106165-global.com_glide_external_app_glideencrypter</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_0d2360d2db679110c2ba3ed4e29619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-05 17:53:51</sys_updated_on>
+        <target_role/>
+        <target_scope/>
+        <target_script>ff565be6773120105d7b3882a9106165</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>
