@@ -2,7 +2,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_x_mioms_azpi_ne_template_id" table="x_mioms_azpipeline_change_request_import">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_template_id</attributes>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +24,7 @@
         <element>u_x_mioms_azpi_ne_template_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
@@ -42,14 +42,12 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-28 08:10:11</sys_created_on>
-        <sys_id>32d874511be75c50c0c82fc4bd4bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>d3e1a4593b0836104c53354a85e45afe</sys_id>
         <sys_name>u_x_mioms_azpipeline_template_id</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
@@ -64,6 +62,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-16 09:13:24</sys_updated_on>
         <sys_user_role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

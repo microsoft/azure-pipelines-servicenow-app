@@ -7,7 +7,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_mioms_azpipeline.pipelinesExecution</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>pipelinesExecution</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

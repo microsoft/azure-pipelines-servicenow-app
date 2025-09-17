@@ -2,7 +2,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="x_mioms_azpipeline_change_request_import">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +24,7 @@
         <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Collection">collection</internal_type>
@@ -42,21 +42,19 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-16 05:49:33</sys_created_on>
-        <sys_id>496d4401dbabd4507c80230bd3961916</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>4fe1a4593b0836104c53354a85e45abc</sys_id>
         <sys_name>x_mioms_azpipeline_change_request_import</sys_name>
         <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
         <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_NULL</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-27 10:21:54</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-11 11:35:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -64,6 +62,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

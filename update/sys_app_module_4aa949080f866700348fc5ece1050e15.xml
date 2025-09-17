@@ -18,6 +18,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>x_mioms_azpipeline_Customer_support.do</query>
         <report/>
+        <require_confirmation>true</require_confirmation>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>

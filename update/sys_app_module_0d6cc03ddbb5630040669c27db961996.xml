@@ -18,6 +18,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>v_ws_editor.do?sysparm_query=name=x_mioms_azpipeline_change_request_import</query>
         <report/>
+        <require_confirmation>true</require_confirmation>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
