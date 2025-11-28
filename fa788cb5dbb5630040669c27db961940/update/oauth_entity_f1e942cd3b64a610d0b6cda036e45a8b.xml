@@ -32,6 +32,7 @@
         <salt/>
         <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
         <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
         <sys_class_name>oauth_entity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-26 05:59:37</sys_created_on>
@@ -44,9 +45,11 @@
         <sys_update_name>oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-04-16 06:45:22</sys_updated_on>
+        <token_format>opaque</token_format>
         <token_url/>
         <type>client</type>
         <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
         <user/>
     </oauth_entity>
 </record_update>
