@@ -1680,6 +1680,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unauthorized</element>
+            <position>120</position>
+            <sys_created_by>philipsonjoseph</sys_created_by>
+            <sys_created_on>2025-11-24 13:01:21</sys_created_on>
+            <sys_id>93258fdf3b997a504c53354a85e45a1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_azpipeline_change_request_import" sys_domain="global" view="Default view">7883a512db7c37002df673278c9619af</sys_ui_section>
+            <sys_updated_by>philipsonjoseph</sys_updated_by>
+            <sys_updated_on>2025-11-24 13:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_unauthorized</element>
+            <position>121</position>
+            <sys_created_by>philipsonjoseph</sys_created_by>
+            <sys_created_on>2025-11-24 15:52:31</sys_created_on>
+            <sys_id>625ca3533b9d7a504c53354a85e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_azpipeline_change_request_import" sys_domain="global" view="Default view">7883a512db7c37002df673278c9619af</sys_ui_section>
+            <sys_updated_by>philipsonjoseph</sys_updated_by>
+            <sys_updated_on>2025-11-24 15:52:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

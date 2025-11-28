@@ -85,6 +85,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_chg_model" label="Chg model" max_length="40" name="u_chg_model" type="string"/>
         <element attributes="import_attribute_name=u_priority,edge_encryption_enabled=true" label="Priority" max_length="40" name="u_priority" type="string"/>
         <element attributes="import_attribute_name=u_requested_by,edge_encryption_enabled=true" label="Requested by" max_length="4000" name="u_requested_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_unauthorized" label="Unauthorized" max_length="40" name="u_unauthorized" type="string"/>
         <element attributes="import_attribute_name=u_review_status,edge_encryption_enabled=true" label="Review status" max_length="40" name="u_review_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_kirttest" label="X mioms azpipeline kirttest" max_length="40" name="u_x_mioms_azpipeline_kirttest" type="string"/>
         <element attributes="import_attribute_name=u_std_change_producer_version,edge_encryption_enabled=true" label="Std change producer version" max_length="40" name="u_std_change_producer_version" type="string"/>
@@ -94,7 +95,6 @@
         <element attributes="import_attribute_name=u_opened_by,edge_encryption_enabled=true" label="Opened by" max_length="4000" name="u_opened_by" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_import_set_run" label="Import set run" max_length="40" name="u_import_set_run" type="string"/>
         <element attributes="import_attribute_name=u_upon_approval,edge_encryption_enabled=true" label="Upon approval" max_length="4000" name="u_upon_approval" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_unauthorized" label="Unauthorized" max_length="40" name="u_unauthorized" type="string"/>
         <element attributes="import_attribute_name=u_assignment_group,edge_encryption_enabled=true" label="Assignment group" max_length="4000" name="u_assignment_group" type="string"/>
         <element attributes="import_attribute_name=u_comments,edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="string"/>
         <element attributes="import_attribute_name=u_group_list,edge_encryption_enabled=true" label="Group list" max_length="4000" name="u_group_list" type="string"/>

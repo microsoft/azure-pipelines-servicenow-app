@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="import_transformer" name="import_transformer">4a69c2f70a0a0bc001ca45414850234f</contains>
+        <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 09:37:23</sys_created_on>
+        <sys_id>4ba3c1040f866700348fc5ece1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>import_transformer.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 09:37:23</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="import_transformer" name="import_transformer">4a69c2f70a0a0bc001ca45414850234f</contains>
+        <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-23 09:37:23</sys_created_on>
+        <sys_id>4ba3c1040f866700348fc5ece1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>import_transformer.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-23 09:37:23</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>-656427045</payload_hash>
+        <record_name>import_transformer.x_mioms_azpipeline.pipelinesExecution</record_name>
+        <reverted_from/>
+        <source>cae164593b0836104c53354a85e45a3c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-09-16 16:42:18</sys_created_on>
+        <sys_id>3e0264993b0836104c53354a85e45aea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1995367d62d0000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-09-16 16:42:18</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>f60264991b0836103f34fb0d6912ecea</update_guid>
+        <update_guid_history>f60264991b0836103f34fb0d6912ecea:0,4a216095f008361068041a826c5c639e:-2105915317,d41f58d154083610b204e04bc70d79fc:0,941ba78979043610ff43ccbb7a782fca:-2105915317,6627d01b78b322104f5bf45022db5f53:0,fb06181720b32210490bf89189a952a2:-2105915317,ac85d4d3e7b322101550c0bd6d03dd3b:0,a0c4d0132eb32210bf798a86eecef6e3:-2105915317,1864dc5df77f6a502216bd2d9e583410:0,31c318d9a07f6a50a3125c9f5e8b41ea:-2105915317,1f311819e77f6a50c43ddbc8f3ae17ac:0,d7509855b97f6a5003c7f7664604519a:-2105915317,ca7dcc011eabd450c05843726a8d9824:0,5c5d8ccdcb6bd450d19ddbc6cd1aac93:1206400326,142d04cd616bd450d519181aad5c8288:0,e5fc808dd66bd450f8ecc96a8565304c:1206400326,fa377aa9580980107c9265b57009bf09:1136777427,fa377aa9580980107c9265b57009bf09:1136777427,37921c8c6ec90410f5e1c5daf9f6f677:1206400326,c744943378fcc010b7f51d6b579ab2dd:1206400326,4a10761bef3c80108af54dd09c500e07:1206400326,ff1b2a13753c8010f0cfa983731c008a:1775360675,ff1b2a13753c8010f0cfa983731c008a:1775360675,6bd2d7ba56208090ae1674f19caeb27c:1206400326,7cf19bf6f22080906cde166fa26be8da:1206400326,d626c8109100cc90ce2d9c4a43b60145:0,def54010e600cc90dfad9c1268a88a03:1206400326,a6908aabc7fff7402e207bdf4755b51e:0,1f308e6b4cfff740b6b49680f91bec86:1206400326,e3354a6efd333f8058377032ef359f35:0,5015ce2e01333f8006570dd8f583363e:1206400326,ad84c6eaac333f808f99183f56cf6357:0,19540eaa0b333f802504e1884ac444a7:1206400326,0aec35d2c0fb77407ec044a266c997d3:0,3dac7992affb7740972e0d9328689596:1206400326,2af7f1d51c7ff340cf77fd205e2ebc9a:0,e535f1556d7ff340b0677ca163bc749b:1206400326,b5cb24d9dec1bb00c1ea27f7e0123fe9:0,e8abe89939c1bb0093199334a4017a9b:1206400326,4e1b20999bc1bb00673043a94cb1c562:0,73eaa459fac1bb00103c19f2668fff9c:1206400326,f0ccd2f75f943b4072527130cb20b37a:0,778c5ab750943b40b25a71d1ebcc3a47:1206400326,c3a3c104ee86670059f393f0aecf7559:1156504493</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 07:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>022893bd097149308028ae0a8ab37100</sys_id>
+        <sys_metadata>4ba3c1040f866700348fc5ece1050e55</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>import_transformer.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_4ba3c1040f866700348fc5ece1050e55">3e0264993b0836104c53354a85e45aea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 07:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

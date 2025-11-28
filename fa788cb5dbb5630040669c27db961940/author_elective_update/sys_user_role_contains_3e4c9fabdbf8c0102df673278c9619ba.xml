@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="personalize_choices" name="personalize_choices">3016d3e0a9fe3dba016a03916401c2d7</contains>
+        <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 06:46:45</sys_created_on>
+        <sys_id>3e4c9fabdbf8c0102df673278c9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>personalize_choices.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_3e4c9fabdbf8c0102df673278c9619ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 06:46:45</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_user_role_contains_3e4c9fabdbf8c0102df673278c9619ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="personalize_choices" name="personalize_choices">3016d3e0a9fe3dba016a03916401c2d7</contains>
+        <role display_value="x_mioms_azpipeline.pipelinesExecution" name="x_mioms_azpipeline.pipelinesExecution">1af90879dbb5630040669c27db961986</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 06:46:45</sys_created_on>
+        <sys_id>3e4c9fabdbf8c0102df673278c9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>personalize_choices.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_user_role_contains_3e4c9fabdbf8c0102df673278c9619ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 06:46:45</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>-1307634410</payload_hash>
+        <record_name>personalize_choices.x_mioms_azpipeline.pipelinesExecution</record_name>
+        <reverted_from/>
+        <source>cae164593b0836104c53354a85e45a3c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-09-16 16:42:17</sys_created_on>
+        <sys_id>f60264993b0836104c53354a85e45ae7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1995367d5f70000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-09-16 16:42:17</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>b2026499380836105850dd08a22cd9e7</update_guid>
+        <update_guid_history>b2026499380836105850dd08a22cd9e7:0,8e216095a708361087d1f419aaf31e99:-1831065880,901f58d12b083610b4bf37d016d093f9:0,5c1ba789d004361049dcb70c13158bc5:-1831065880,2227d01bf5b32210fd180e8322ee0150:0,73061817a6b32210eefdd56558daff9e:-1831065880,6885d4d349b322108c2db7bad1d9e038:0,68c4d01397b32210716804f8924038de:-1831065880,d064dc5d387f6a50d97fd1ee1ed2eb0d:0,39c318d9d67f6a50520e104f845830e5:-1831065880,d73118194d7f6a50a3922da46f620ea9:0,1f5098553f7f6a504bd80e32ca80b295:-1831065880,067dcc0122abd450fea8d30f7ceee215:0,dc5d8ccd5f6bd45060e1d3b08ffd1b8f:-1572318581,142d04cdf86bd450ec181b1f251f3d85:0,69fc808d3d6bd450a160ebc94add5148:-1572318581,fe373aa9db098010c4519cd38d84d6f7:1427528826,fe373aa9db098010c4519cd38d84d6f7:1427528826,eb921c8c45c90410fbcf1f9b4a589a4d:-1572318581,c344943339fcc0102ed949baa9af8cd9:-1572318581,fe4c53aff6f8c01003a18f4e044cc613:-1250993530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 07:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>88b067efc2814d0495c94da853a4c810</sys_id>
+        <sys_metadata>3e4c9fabdbf8c0102df673278c9619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>personalize_choices.x_mioms_azpipeline.pipelinesExecution</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_3e4c9fabdbf8c0102df673278c9619ba</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_3e4c9fabdbf8c0102df673278c9619ba">f60264993b0836104c53354a85e45ae7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 07:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
