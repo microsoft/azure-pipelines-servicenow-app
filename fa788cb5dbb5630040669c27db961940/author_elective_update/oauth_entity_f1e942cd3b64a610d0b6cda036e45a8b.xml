@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>a34c0dc8baa141328fd8bafb4d4a0386</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭R-TgxbNedj9hXlt8lkSUlw==gePC42nSHi5ronK06skqx0eqfTrfEAzIJxk=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>b1e942cd3b64a610d0b6cda036e45a8b</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>OAuthForsnalawade</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev.azure.com/v-schhabra/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 05:59:37</sys_created_on>
+        <sys_id>f1e942cd3b64a610d0b6cda036e45a8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OAuthForsnalawade</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 06:45:22</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>a34c0dc8baa141328fd8bafb4d4a0386</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭R-TgxbNedj9hXlt8lkSUlw==gePC42nSHi5ronK06skqx0eqfTrfEAzIJxk=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>b1e942cd3b64a610d0b6cda036e45a8b</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>OAuthForsnalawade</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev.azure.com/v-schhabra/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 05:59:37</sys_created_on>
+        <sys_id>f1e942cd3b64a610d0b6cda036e45a8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OAuthForsnalawade</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 06:45:22</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>]]></payload>
+        <payload_hash>959224516</payload_hash>
+        <record_name>OAuthForsnalawade</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:06:00</sys_created_on>
+        <sys_id>d79e40bc3b8a3e50d0b6cda036e45aec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a191e0000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:06:00</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>139e40bcc28a3e5044e6fed611be6dec</update_guid>
+        <update_guid_history>139e40bcc28a3e5044e6fed611be6dec:0,09dd4cb8998a3e501e0ecb590613b54d:-1624659263,e102e09955083610ab52f48d725ddd7d:0,43e1a4595f0836108e7f264549fdbba8:1272881020,2d5128d555083610d1e8ad1de06d231a:0,ce31e895fc08361070757c5ed75ee267:1272881020,760fd4d1530836103062320dce5e2b83:0,082b2f8993043610ad24d5c7f215b7ef:1272881020,5927101bf4b322106d95e5816b8cb7dd:0,27161057d5b322109b10f13da06a5446:1272881020,077514d382b322105d5e97f92ebccb4d:0,70d4d81327b32210521c5a480fae5002:1272881020,ba541c5d127f6a503f2c1f75fd862fbd:0,46d3dcd91c7f6a50ee4f4b7e54dfd602:1272881020,6d311419247f6a5004ff4654c33c9b80:0,ef601095d17f6a504171e21f2cb9cdeb:1272881020,c32edaf3b3b06a9059b591db01b28139:-252171256,ac1d56f3cab06a909f96418b63110659:884227266,845a42cddd64a6103ee9c9399e9717c0:-1717504160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-04 23:54:49">5ec11af83b5676104c53354a85e45a98</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-05 07:54:49</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>52d57c4b2e384f0896ebd022e160ac64</sys_id>
+        <sys_metadata>f1e942cd3b64a610d0b6cda036e45a8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OAuthForsnalawade</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b</sys_update_name>
+        <sys_update_version display_value="oauth_entity_f1e942cd3b64a610d0b6cda036e45a8b">d79e40bc3b8a3e50d0b6cda036e45aec</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-05 07:54:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

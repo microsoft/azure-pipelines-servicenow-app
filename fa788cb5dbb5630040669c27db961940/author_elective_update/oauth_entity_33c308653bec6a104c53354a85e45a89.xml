@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>2e90272023744ea6b7c98dce1c33e949</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭5CRxNv6MLWQrs59L9BrMIQ==B2gUGGsO9uDFBAdmFb3skJT_DJDhpxfIIbk=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>ffc308653bec6a104c53354a85e45a88</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>tpavlovic</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://codedev.ms/tpavlovic/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 09:30:31</sys_created_on>
+        <sys_id>33c308653bec6a104c53354a85e45a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tpavlovic</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_33c308653bec6a104c53354a85e45a89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:30:31</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>oauth_entity_33c308653bec6a104c53354a85e45a89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>2e90272023744ea6b7c98dce1c33e949</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭5CRxNv6MLWQrs59L9BrMIQ==B2gUGGsO9uDFBAdmFb3skJT_DJDhpxfIIbk=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>ffc308653bec6a104c53354a85e45a88</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>tpavlovic</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://codedev.ms/tpavlovic/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 09:30:31</sys_created_on>
+        <sys_id>33c308653bec6a104c53354a85e45a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tpavlovic</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_33c308653bec6a104c53354a85e45a89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 09:30:31</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>]]></payload>
+        <payload_hash>-1911012070</payload_hash>
+        <record_name>tpavlovic</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:05:59</sys_created_on>
+        <sys_id>4f9e40bc3b8a3e50d0b6cda036e45aa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a17f70000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:05:59</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>879e40bc7f8a3e5007e8c357aef214a6</update_guid>
+        <update_guid_history>879e40bc7f8a3e5007e8c357aef214a6:0,d8cdc0b85d8a3e5092978038ad476094:1907380943,a102e09909083610614923110b2bd96a:0,22e16459d8083610745685043c0d8b63:42238880,2d51e4d55b083610ae2b1fe43156e7fb:0,13212495ad083610345dc62947b3a5da:42238880,360fd4d1d1083610e0661b5e3a396156:0,ed1b2b896d0436101e3bee5b1ea8108e:42238880,1d27101be3b322104fb3a53587246ec9:0,c1169817b5b32210c99afea8934aa8f8:42238880,8f7514d376b32210cd29f298e0d9272c:0,06c4941397b32210db09cecb3e8f652e:42238880,fe541c5dec7f6a502ee1e0e19c3887a9:0,43c398d95b7f6a5003cf5cbcf64cd69c:42238880,e5311419d17f6a5051907572c5b45760:0,34601c55927f6a50307069ec4a772aa5:42238880,db240465beec6a1069c2d1a5e2d8bfdd:-1560228308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-04 23:54:48">4ac11af83b5676104c53354a85e45a3f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-05 07:54:48</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>241a2cb1d71444a1b73ddd67be356ee9</sys_id>
+        <sys_metadata>33c308653bec6a104c53354a85e45a89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tpavlovic</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>oauth_entity_33c308653bec6a104c53354a85e45a89</sys_update_name>
+        <sys_update_version display_value="oauth_entity_33c308653bec6a104c53354a85e45a89">4f9e40bc3b8a3e50d0b6cda036e45aa6</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-05 07:54:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

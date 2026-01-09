@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping">
+    <oauth_entity_auth_scope_mapping action="DELETE">
+        <auth_scope display_value="useraccount">d67787c4c321011089a7dd5c2840dd6e</auth_scope>
+        <oauth_entity display_value="OAuthVen01306ADO1">6fd4fb543b2ce210d0b6cda036e45a04</oauth_entity>
+        <sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 12:30:38</sys_created_on>
+        <sys_id>6ddf09603ba02610d0b6cda036e45a38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_auth_scope_mapping_6ddf09603ba02610d0b6cda036e45a38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 12:30:38</sys_updated_on>
+    </oauth_entity_auth_scope_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>oauth_entity_auth_scope_mapping_6ddf09603ba02610d0b6cda036e45a38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping">
+    <oauth_entity_auth_scope_mapping action="INSERT_OR_UPDATE">
+        <auth_scope display_value="useraccount">d67787c4c321011089a7dd5c2840dd6e</auth_scope>
+        <oauth_entity display_value="OAuthVen01306ADO1">6fd4fb543b2ce210d0b6cda036e45a04</oauth_entity>
+        <sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 12:30:38</sys_created_on>
+        <sys_id>6ddf09603ba02610d0b6cda036e45a38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_auth_scope_mapping_6ddf09603ba02610d0b6cda036e45a38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 12:30:38</sys_updated_on>
+    </oauth_entity_auth_scope_mapping>
+</record_update>]]></payload>
+        <payload_hash>415902236</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:06:00</sys_created_on>
+        <sys_id>1f9e40bc3b8a3e50d0b6cda036e45ad1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a18ac0000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:06:00</sys_updated_on>
+        <type>Auth Scopes</type>
+        <update_guid>579e40bcea8a3e5085c0a2245b9ad0d1</update_guid>
+        <update_guid_history>579e40bcea8a3e5085c0a2245b9ad0d1:0,3bcd48b8738a3e50f688222794032d34:778540042,ad02e0990008361081c5daf6e82e2074:0,aae16459cb083610e86e5f1ae50fcff4:-768240124,e95128d5170836102521a69c6ed6d312:0,8431a495d7083610a33822a37b6c75e4:-768240124,f60fd4d10108361083c062e6f9c1487a:0,0e1b6b892b0436104599a472af59f97e:-768240124,1d27101b5eb322105948badef99664d4:0,e1161c1710b3221058485df43740b901:-768240124,877514d37db322105c7c4a407ef1c644:0,36c4d4134eb3221018e7d59d1eba0e62:-768240124,7e541c5d767f6a50efefbe9f0f8a26b4:0,33c3d8d9417f6a507b04dfffb249e79e:-768240124,29311419247f6a505dcf25caa1e1276b:0,15605c55c17f6a50a84d6d386b189964:-768240124,6ca0d1a094a02610526d544f09f9db1d:1529601969</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-04 23:54:49">92c11af83b5676104c53354a85e45a77</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-05 07:54:49</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_auth_scope_mapping">oauth_entity_auth_scope_mapping</sys_db_object>
+        <sys_id>5a31538491c24e3881f13d03d1274a40</sys_id>
+        <sys_metadata>6ddf09603ba02610d0b6cda036e45a38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>oauth_entity_auth_scope_mapping_6ddf09603ba02610d0b6cda036e45a38</sys_update_name>
+        <sys_update_version display_value="oauth_entity_auth_scope_mapping_6ddf09603ba02610d0b6cda036e45a38">1f9e40bc3b8a3e50d0b6cda036e45ad1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-05 07:54:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
