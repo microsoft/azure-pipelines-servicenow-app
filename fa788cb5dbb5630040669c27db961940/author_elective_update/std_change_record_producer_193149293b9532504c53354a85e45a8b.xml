@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_change_record_producer">
+    <std_change_record_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <available_in_ui>true</available_in_ui>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <closed_change_count>0</closed_change_count>
+        <color>#cbcbcb</color>
+        <cost>0</cost>
+        <current_version display_value="Test_New_Standard_Change - 2">1b32cd693b9532504c53354a85e45ad9</current_version>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Test_New_Standard_Change</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Enable">3af1b3523b276e10d0b6cda036e45af3</owner>
+        <percent_successful>0</percent_successful>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=193149293b9532504c53354a85e45a8b&amp;sysparm_preview=true", "summary");</preview>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <retired>false</retired>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.std_change_producer_version = "1b32cd693b9532504c53354a85e45ad9";
+if (gs.getProperty("com.snc.change_management.change_model.type_compatibility", "false") === "true")
+	current.type = "standard";
+else
+	current.chg_model = "e55d0bfec343101035ae3f52c1d3ae49";
+GlideSysAttachment.copy("std_change_record_producer", "193149293b9532504c53354a85e45a8b", current.getTableName(), current.getUniqueValue());
+]]></script>
+        <short_description>Test standard Sample description</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>std_change_record_producer</sys_class_name>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-11-18 16:55:24</sys_created_on>
+        <sys_id>193149293b9532504c53354a85e45a8b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test_New_Standard_Change</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>std_change_record_producer_193149293b9532504c53354a85e45a8b</sys_update_name>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-11-18 18:06:47</sys_updated_on>
+        <table_name>change_request</table_name>
+        <taxonomy_topic/>
+        <template display_value="Test_New_Standard_Change">413149293b9532504c53354a85e45a87</template>
+        <template_manager_roles/>
+        <type>item</type>
+        <unsuccessful_change_count>0</unsuccessful_change_count>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>4</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </std_change_record_producer>
+    <sys_translated_text action="DELETE" query="documentkey=193149293b9532504c53354a85e45a8b"/>
+    <fx_price action="DELETE" query="id=193149293b9532504c53354a85e45a8b"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>std_change_record_producer_193149293b9532504c53354a85e45a8b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="std_change_record_producer"&gt;
+    &lt;std_change_record_producer action="INSERT_OR_UPDATE"&gt;
+        &lt;access_type&gt;restricted&lt;/access_type&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;allow_edit&gt;false&lt;/allow_edit&gt;
+        &lt;availability&gt;on_desktop&lt;/availability&gt;
+        &lt;available_in_ui&gt;true&lt;/available_in_ui&gt;
+        &lt;billable&gt;false&lt;/billable&gt;
+        &lt;can_cancel&gt;false&lt;/can_cancel&gt;
+        &lt;category/&gt;
+        &lt;checked_out/&gt;
+        &lt;closed_change_count&gt;0&lt;/closed_change_count&gt;
+        &lt;color&gt;#cbcbcb&lt;/color&gt;
+        &lt;cost&gt;0&lt;/cost&gt;
+        &lt;current_version display_value="Test_New_Standard_Change - 2"&gt;1b32cd693b9532504c53354a85e45ad9&lt;/current_version&gt;
+        &lt;custom_cart/&gt;
+        &lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;
+        &lt;delivery_plan_script/&gt;
+        &lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;
+        &lt;description/&gt;
+        &lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;
+        &lt;entitlement_script/&gt;
+        &lt;flow_designer_flow/&gt;
+        &lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;
+        &lt;group/&gt;
+        &lt;hide_sp&gt;false&lt;/hide_sp&gt;
+        &lt;icon/&gt;
+        &lt;ignore_price&gt;false&lt;/ignore_price&gt;
+        &lt;image/&gt;
+        &lt;location/&gt;
+        &lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;
+        &lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;
+        &lt;meta/&gt;
+        &lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;
+        &lt;mobile_picture/&gt;
+        &lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;
+        &lt;model/&gt;
+        &lt;name&gt;Test_New_Standard_Change&lt;/name&gt;
+        &lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;
+        &lt;no_cart&gt;false&lt;/no_cart&gt;
+        &lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;
+        &lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;
+        &lt;no_order&gt;false&lt;/no_order&gt;
+        &lt;no_order_now&gt;false&lt;/no_order_now&gt;
+        &lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;
+        &lt;no_quantity&gt;false&lt;/no_quantity&gt;
+        &lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;
+        &lt;no_save_as_draft&gt;false&lt;/no_save_as_draft&gt;
+        &lt;no_search&gt;false&lt;/no_search&gt;
+        &lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;
+        &lt;omit_price&gt;false&lt;/omit_price&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;ordered_item_link/&gt;
+        &lt;owner display_value="Enable"&gt;3af1b3523b276e10d0b6cda036e45af3&lt;/owner&gt;
+        &lt;percent_successful&gt;0&lt;/percent_successful&gt;
+        &lt;picture/&gt;
+        &lt;post_insert_script/&gt;
+        &lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=193149293b9532504c53354a85e45a8b&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;
+        &lt;published_ref/&gt;
+        &lt;recurring_frequency/&gt;
+        &lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;
+        &lt;request_method/&gt;
+        &lt;retired&gt;false&lt;/retired&gt;
+        &lt;roles/&gt;
+        &lt;save_options/&gt;
+        &lt;save_script/&gt;
+        &lt;sc_catalogs/&gt;
+        &lt;sc_ic_item_staging/&gt;
+        &lt;sc_ic_version/&gt;
+        &lt;sc_template/&gt;
+        &lt;script&gt;&lt;![CDATA[current.std_change_producer_version = "1b32cd693b9532504c53354a85e45ad9";
+if (gs.getProperty("com.snc.change_management.change_model.type_compatibility", "false") === "true")
+	current.type = "standard";
+else
+	current.chg_model = "e55d0bfec343101035ae3f52c1d3ae49";
+GlideSysAttachment.copy("std_change_record_producer", "193149293b9532504c53354a85e45a8b", current.getTableName(), current.getUniqueValue());
+]]&gt;&lt;/script&gt;
+        &lt;short_description&gt;Test standard Sample description&lt;/short_description&gt;
+        &lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;
+        &lt;start_closed&gt;false&lt;/start_closed&gt;
+        &lt;state/&gt;
+        &lt;sys_class_name&gt;std_change_record_producer&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;philipsonjoseph&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-11-18 16:55:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;193149293b9532504c53354a85e45a8b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Test_New_Standard_Change&lt;/sys_name&gt;
+        &lt;sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline"&gt;fa788cb5dbb5630040669c27db961940&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Azure DevOps Pipelines"&gt;fa788cb5dbb5630040669c27db961940&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;std_change_record_producer_193149293b9532504c53354a85e45a8b&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;philipsonjoseph&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-11-18 18:06:47&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;change_request&lt;/table_name&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;template display_value="Test_New_Standard_Change"&gt;413149293b9532504c53354a85e45a87&lt;/template&gt;
+        &lt;template_manager_roles/&gt;
+        &lt;type&gt;item&lt;/type&gt;
+        &lt;unsuccessful_change_count&gt;0&lt;/unsuccessful_change_count&gt;
+        &lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;
+        &lt;vendor/&gt;
+        &lt;version&gt;4&lt;/version&gt;
+        &lt;view/&gt;
+        &lt;visible_bundle&gt;true&lt;/visible_bundle&gt;
+        &lt;visible_guide&gt;true&lt;/visible_guide&gt;
+        &lt;visible_standalone&gt;true&lt;/visible_standalone&gt;
+        &lt;workflow/&gt;
+    &lt;/std_change_record_producer&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=193149293b9532504c53354a85e45a8b"/&gt;
+    &lt;fx_price action="delete_multiple" query="id=193149293b9532504c53354a85e45a8b"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-313413619</payload_hash>
+        <record_name>Test_New_Standard_Change</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:06:00</sys_created_on>
+        <sys_id>9f9e80bc3b8a3e50d0b6cda036e45a2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a1ae60000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:06:00</sys_updated_on>
+        <type>Standard Change Template</type>
+        <update_guid>579e80bcab8a3e50e2d3ac592eee6a2f</update_guid>
+        <update_guid_history>579e80bcab8a3e50e2d3ac592eee6a2f:0,d1314929b195325063b1c134a5ea45ae:-805504704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2025-12-23 22:12:33">e747c8093b46be50d0b6cda036e45a95</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-24 06:12:34</sys_created_on>
+        <sys_db_object display_value="" name="std_change_record_producer">std_change_record_producer</sys_db_object>
+        <sys_id>6e86eb5042b44feda1212e7e59468501</sys_id>
+        <sys_metadata>193149293b9532504c53354a85e45a8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test_New_Standard_Change</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>std_change_record_producer_193149293b9532504c53354a85e45a8b</sys_update_name>
+        <sys_update_version display_value="std_change_record_producer_193149293b9532504c53354a85e45a8b">9f9e80bc3b8a3e50d0b6cda036e45a2f</sys_update_version>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-24 06:12:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

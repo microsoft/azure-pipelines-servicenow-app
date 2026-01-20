@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="active_learning">e7677bbbdb6df5504b93d9fcd3961913</ml_capability_definition>
+        <ml_solution/>
+        <name>active_learning</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Enable">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-10-05 07:28:58</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 07:28:58</sys_created_on>
+        <sys_id>ff677bbbdb6df5504b93d9fcd396191f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>active_learning</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>ml_training_request_schedule_ff677bbbdb6df5504b93d9fcd396191f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-05 07:28:59</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>ml_training_request_schedule_ff677bbbdb6df5504b93d9fcd396191f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="active_learning">e7677bbbdb6df5504b93d9fcd3961913</ml_capability_definition>
+        <ml_solution/>
+        <name>active_learning</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Enable">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-10-05 07:28:58</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 07:28:58</sys_created_on>
+        <sys_id>ff677bbbdb6df5504b93d9fcd396191f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>active_learning</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>ml_training_request_schedule_ff677bbbdb6df5504b93d9fcd396191f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-05 07:28:59</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+</record_update>]]></payload>
+        <payload_hash>176850128</payload_hash>
+        <record_name>active_learning</record_name>
+        <reverted_from/>
+        <source>251158d53b7f6a50d0b6cda036e45a4d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-09-04 05:13:02</sys_created_on>
+        <sys_id>e13114193b7f6a50d0b6cda036e45a37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19913247e7b0000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-09-04 05:13:02</sys_updated_on>
+        <type>Training Request Schedule</type>
+        <update_guid>a1311419367f6a50e3c28ff50ed8e437</update_guid>
+        <update_guid_history>a1311419367f6a50e3c28ff50ed8e437:176850128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-09 09:12:44</sys_created_on>
+        <sys_db_object display_value="" name="ml_training_request_schedule">ml_training_request_schedule</sys_db_object>
+        <sys_id>92cccda5dd6f4d50bd86ad4fd7e4a5c4</sys_id>
+        <sys_metadata>ff677bbbdb6df5504b93d9fcd396191f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>active_learning</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>ml_training_request_schedule_ff677bbbdb6df5504b93d9fcd396191f</sys_update_name>
+        <sys_update_version display_value="ml_training_request_schedule_ff677bbbdb6df5504b93d9fcd396191f">e13114193b7f6a50d0b6cda036e45a37</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-09 09:12:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

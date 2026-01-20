@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>mIg72byVp4sBL+spOWAmEGi5qrGJDcEY+ntdp2II8Ng=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_mioms_azpipeline.pipelinesExecution</name>
