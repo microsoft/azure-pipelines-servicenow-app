@@ -25,7 +25,6 @@
         <element attributes="import_attribute_name=u_upon_approval,edge_encryption_enabled=true" label="Upon approval" max_length="4000" name="u_upon_approval" type="string"/>
         <element attributes="import_attribute_name=u_close_notes,edge_encryption_enabled=true" label="Close notes" max_length="4000" name="u_close_notes" type="string"/>
         <element attributes="import_attribute_name=u_cmdb_ci,edge_encryption_enabled=true" label="CMDB CI" max_length="4000" name="u_cmdb_ci" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_kirttest" label="kirttest" max_length="40" name="u_kirttest" type="string"/>
         <element attributes="import_attribute_name=u_delivery_plan,edge_encryption_enabled=true" label="Delivery plan" max_length="4000" name="u_delivery_plan" type="string"/>
         <element attributes="import_attribute_name=u_calendar_duration,edge_encryption_enabled=true" label="Calendar duration" max_length="40" name="u_calendar_duration" type="string"/>
         <element attributes="import_attribute_name=u_upon_reject,edge_encryption_enabled=true" label="Upon reject" max_length="4000" name="u_upon_reject" type="string"/>
@@ -45,7 +44,6 @@
         <element attributes="import_attribute_name=u_scope,edge_encryption_enabled=true" label="Scope" max_length="4000" name="u_scope" type="string"/>
         <element attributes="import_attribute_name=u_business_service,edge_encryption_enabled=true" label="Business service" max_length="4000" name="u_business_service" type="string"/>
         <element attributes="import_attribute_name=u_work_end,edge_encryption_enabled=true" label="Work end" max_length="40" name="u_work_end" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_kirttest" label="X mioms azpipeline kirttest" max_length="40" name="u_x_mioms_azpipeline_kirttest" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_vsts_integ_vsts_meta_data" label="u_x_mioms_vsts_integ_vsts_meta_data" max_length="40" name="u_x_mioms_vsts_vsts_meta_data" type="string"/>
         <element attributes="import_attribute_name=u_activity_due,edge_encryption_enabled=true" label="Activity due" max_length="40" name="u_activity_due" type="string"/>
         <element attributes="import_attribute_name=u_active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
@@ -79,7 +77,6 @@
         <element attributes="import_attribute_name=u_additional_assignee_list,edge_encryption_enabled=true" label="Additional assignee list" max_length="4000" name="u_additional_assignee_list" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_x_mioms_azpipeline_build_id" label="Build Id" max_length="40" name="u_x_mioms_azpipeline_build_id" type="string"/>
         <element attributes="import_attribute_name=u_opened_by,edge_encryption_enabled=true" label="Opened by" max_length="4000" name="u_opened_by" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_dmittaltest" label="dmittaltest" max_length="40" name="u_dmittaltest" type="string"/>
         <element attributes="import_attribute_name=u_risk,edge_encryption_enabled=true" label="Risk" max_length="40" name="u_risk" type="string"/>
         <element attributes="import_attribute_name=u_sla_due,edge_encryption_enabled=true" label="SLA due" max_length="40" name="u_sla_due" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_cab_date_time" label="Cab date time" max_length="40" name="u_cab_date_time" type="string"/>

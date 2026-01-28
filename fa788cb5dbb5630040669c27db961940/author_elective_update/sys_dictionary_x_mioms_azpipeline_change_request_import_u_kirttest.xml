@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_kirttest" table="x_mioms_azpipeline_change_request_import">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_kirttest</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>kirttest</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_kirttest</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_mioms_azpipeline_change_request_import</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 13:16:24</sys_created_on>
+        <sys_name>kirttest</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_kirttest</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 13:16:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_kirttest</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_kirttest" table="x_mioms_azpipeline_change_request_import">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=u_kirttest</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>kirttest</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_kirttest</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_mioms_azpipeline_change_request_import</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 13:16:24</sys_created_on>
+        <sys_name>kirttest</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_kirttest</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 13:16:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1594526378</payload_hash>
+        <record_name>change_request_imports.kirttest</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:05:53</sys_created_on>
+        <sys_id>a19e8c7c3b8a3e50d0b6cda036e45a19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a00780000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:05:53</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>e99e8c7c068a3e5069349c4063fd3318</update_guid>
+        <update_guid_history>e99e8c7c068a3e5069349c4063fd3318:0,b4bd4878148a3e50ca9d450d3bec6bbf:1936908488,1002209951083610899fed35a6b861af:0,27616419ed083610a9a35a9ee62b2e32:1936908488,510f54d14c083610bc13509ce7423668:0,0f3b27c96e043610f0fb96d9fbe57b5d:1936908488,7f179cd778b322104073f852ed1e7aa3:0,6d361857a4b322100082b9f57b38366b:1936908488,7d7590d36fb3221099da275d13fff643:0,53e41453d4b322103bab4bb8b3fa4ad7:1936908488,a154985d8f7f6a503146d86d9d04d193:0,77e3941de97f6a50d48553c8d8573fe9:1936908488,3b215019167f6a50e5985a6aeab8dc9d:0,ce809895247f6a504d1bcc764fdb57f4:1936908488,fdb2274961b371108b8aa9b2d8e14282:136445692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 13:21:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>078a8ea40a364db18345dc0f36f45081</sys_id>
+        <sys_metadata>3f7ecc3c3b8a3e50d0b6cda036e45ad2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kirttest</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent display_value="change_request_imports">816c4cf9dbb5630040669c27db9619e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_mioms_azpipeline_change_request_import_u_kirttest</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_mioms_azpipeline_change_request_import_u_kirttest">a19e8c7c3b8a3e50d0b6cda036e45a19</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 13:21:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
