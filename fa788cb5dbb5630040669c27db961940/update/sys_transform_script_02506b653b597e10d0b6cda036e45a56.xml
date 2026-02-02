@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="change_request_imports">2a6c80f9dbb5630040669c27db9619f9</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+	var template_id = target.getValue('x_mioms_azpipeline_template_id');
+	var number = target.getValue("number");
+	var correlation_id = target.getValue("correlation_id");
+	var logId = correlation_id;
+	if (number) {
+		logId = number;
+	}
+	if (!template_id) {
+		gs.info("["+logId+"][OnComplete TransformRule] No Template Id Found on Target Table so skipping");
+		return;
+	}
+	var template = new GlideRecord('sys_template');
+	gs.info("["+logId+"][OnComplete TransformRule] Executing Apply template After BR");
+	if(template.get(template_id)){
+		gs.info("["+logId+"][OnComplete TransformRule]Applying child template :"+template_id);
+		applyChildTemplates(target.getRecordClassName(),target.getUniqueValue(), template.getValue('next_child'));
+	}
+
+	function applyChildTemplates(parentTable, parentID, nextID){
+		gs.info("["+logId+"][OnComplete TransformRule]NextID :"+ nextID);
+		while (nextID) {
+			var childtemplate = new GlideRecord('sys_template');
+			if(childtemplate.get(nextID)){
+				var childGR = new GlideRecord(childtemplate.getValue('table'));
+				childGR.initialize();
+				var templateArray = childtemplate.template.toString().split('^');
+				for(var i=0; i<templateArray.length; i++){
+					var templatefield = templateArray[i].toString().split('=');
+					if(templatefield != 'EQ'){
+						// childGR[templatefield[0]] = templatefield[1].toString();
+						childGR.setValue(templatefield[0], templatefield[1].toString());
+					}
+				}
+				// childGR[parentTable] = parentID.toString();
+				childGR.setValue(parentTable, parentID.toString());
+				var templateDetails = new GlideRecord('std_change_record_producer');
+				if (templateDetails.get('template', nextID)) {
+					var currentVersion = templateDetails.getElement('current_version');
+					if(currentVersion){
+						gs.info("["+logId+"][OnComplete TransformRule]Current Version is :"+ currentVersion);
+						childGR.setValue("std_change_producer_version", currentVersion);
+					} else {
+						gs.info("["+logId+"][OnComplete TransformRule]Current version is empty");
+					}
+				} else {
+					gs.info("["+logId+"][OnComplete TransformRule]Version information is not there :"+ nextID);
+				}
+				childGR.insert();
+				gs.info("["+logId+"][OnComplete TransformRule]Inserted child record");
+				var childID = childtemplate.getValue('next_child');
+				if (childID) {
+					gs.info("["+logId+"][OnComplete TransformRule]Applying template to next child");
+					applyChildTemplates(childGR.getTableName(), childGR.getUniqueValue(), childID);
+				}
+
+				nextID = childtemplate.getValue('next');
+			}else
+				break;
+		}
+	}
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-11-19 04:35:44</sys_created_on>
+        <sys_id>02506b653b597e10d0b6cda036e45a56</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>sys_transform_script_02506b653b597e10d0b6cda036e45a56</sys_update_name>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-11-19 05:36:49</sys_updated_on>
+        <when>onComplete</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>02506b653b597e10d0b6cda036e45a56</id>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-11-19 04:35:44</sys_created_on>
+        <sys_id>8c81e3a53b597e10d0b6cda036e45aab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-11-19 04:35:44</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

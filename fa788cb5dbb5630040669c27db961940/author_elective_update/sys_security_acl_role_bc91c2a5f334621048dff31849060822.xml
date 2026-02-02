@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2025-05-12 21:19:58</sys_created_on>
+        <sys_id>bc91c2a5f334621048dff31849060822</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_security_acl display_value="x_mioms_azpipeline_change_request_import">bc91c2a5f334621048dff3d438063113</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31849060822</sys_update_name>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2025-05-12 21:19:58</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>sys_security_acl_role_bc91c2a5f334621048dff31849060822</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2025-05-12 21:19:58</sys_created_on>
+        <sys_id>bc91c2a5f334621048dff31849060822</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_security_acl display_value="x_mioms_azpipeline_change_request_import">bc91c2a5f334621048dff3d438063113</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31849060822</sys_update_name>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2025-05-12 21:19:58</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1787561302</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cae164593b0836104c53354a85e45a3c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-09-16 16:42:14</sys_created_on>
+        <sys_id>8e0224993b0836104c53354a85e45a82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1995367c9580000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-09-16 16:42:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8a022499ec083610645078bc9091d282</update_guid>
+        <update_guid_history>8a022499ec083610645078bc9091d282:0,37512cd5b40836101512a182839af614:1048146504,825128d58408361009c95eaa93631bdd:0,e93168958f0836103300245e8e0ab0cb:1048146504,1f0f18d13c083610598550c557ed1c7d:0,6f1beb8918043610ddfd11a3502f27a7:1048146504,3927501b1db322109aec1126206fcbda:0,cb169c172fb32210e51fb747f22bf4e6:1048146504,eb7554d30cb3221069b77076e5f6e2a7:0,c0d45813c4b32210e4317aa2910ae7a2:1048146504,2f545c5dba7f6a50b27b4785fab6aba2:0,41d35cd9a27f6a50873eb45ba0c6a796:1048146504,da319419aa7f6a50a5b66aab6f75ae35:0,96609c55a17f6a50f96f734f745bcdf4:1566612529,1a609c55167f6a5069f3ca450d7706f0:1672774437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2025-11-20 22:49:23">1d43d6d23b153250d0b6cda036e45ad8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>@@snc_write_audit@@</sys_created_by>
+        <sys_created_on>2025-11-21 06:49:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>22f4bc738bbe4a4399b5a9350d5ad9a1</sys_id>
+        <sys_metadata>bc91c2a5f334621048dff31849060822</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mioms_azpipeline_change_request_import.public</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent display_value="x_mioms_azpipeline_change_request_import">bc91c2a5f334621048dff3d438063113</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bc91c2a5f334621048dff31849060822</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bc91c2a5f334621048dff31849060822">8e0224993b0836104c53354a85e45a82</sys_update_version>
+        <sys_updated_by>@@snc_write_audit@@</sys_updated_by>
+        <sys_updated_on>2025-11-21 06:49:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

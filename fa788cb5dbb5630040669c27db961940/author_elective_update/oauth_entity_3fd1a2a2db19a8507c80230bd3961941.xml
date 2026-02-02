@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>bbd1a2a21a19a850e6de9488ebcb6f41</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭wmFBrs5_m-J0FE9ai1xhfA==W_68id8fVpn3JxLY1cdzu-5nyDyi343C9IE=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>7bd1a2a2db19a8507c80230bd3961941</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>shashban_ADO</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://shashban.visualstudio.com/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 12:52:11</sys_created_on>
+        <sys_id>3fd1a2a2db19a8507c80230bd3961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shashban_ADO</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_3fd1a2a2db19a8507c80230bd3961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 12:52:11</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>oauth_entity_3fd1a2a2db19a8507c80230bd3961941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>bbd1a2a21a19a850e6de9488ebcb6f41</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭wmFBrs5_m-J0FE9ai1xhfA==W_68id8fVpn3JxLY1cdzu-5nyDyi343C9IE=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>7bd1a2a2db19a8507c80230bd3961941</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>shashban_ADO</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://shashban.visualstudio.com/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 12:52:11</sys_created_on>
+        <sys_id>3fd1a2a2db19a8507c80230bd3961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shashban_ADO</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_3fd1a2a2db19a8507c80230bd3961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 12:52:11</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>]]></payload>
+        <payload_hash>1245722765</payload_hash>
+        <record_name>shashban_ADO</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:05:59</sys_created_on>
+        <sys_id>cf9e40bc3b8a3e50d0b6cda036e45aad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a18300000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:05:59</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>0b9e40bcdc8a3e506040106d6b0771ad</update_guid>
+        <update_guid_history>0b9e40bcdc8a3e506040106d6b0771ad:0,54cdc0b82c8a3e508fbf43437af82ed8:1754991208,a102e099f40836105a283bc26786036e:0,aae164593a083610b36030af46bdc8d2:-1727401753,e15128d5520836104a4d13e11155590c:0,3b2164958808361050499ba0408e28ec:-1727401753,ba0fd4d1f408361009513ee35622da5a:0,afee1c9134083610b0b66ba7b1ba8604:-1727401753,d83b23c902043610c22f7dfa2aac7657:0,391b2b89f604361018a3efe521f43edf:-1727401753,9127101ba6b32210fa83cf167f9084ce:0,760714d71fb32210e4011998747e6cf5:-1727401753,6326545701b32210d2a2e92df9fee387:0,0516d81744b3221011bf4af83254d841:-1727401753,037514d398b32210800f8cecd359a931:0,06c49413ceb3221044ca6d6cafb83264:-1727401753,76541c5db27f6a50f3978470a28534ae:0,87c398d93e7f6a508bbaddaa831ad5bc:-1727401753,6d311419217f6a503d845b76ac4ee564:0,78601c55ae7f6a50ce6281aa6a0173e6:-1727401753,8d12e6a26419a850b5b81da3e413ee2c:1416294975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-04 23:57:28">c162567c3b5676104c53354a85e45aed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-05 07:57:28</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>2f0f596d036e4840856118e0300c24c4</sys_id>
+        <sys_metadata>3fd1a2a2db19a8507c80230bd3961941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shashban_ADO</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>oauth_entity_3fd1a2a2db19a8507c80230bd3961941</sys_update_name>
+        <sys_update_version display_value="oauth_entity_3fd1a2a2db19a8507c80230bd3961941">cf9e40bc3b8a3e50d0b6cda036e45aad</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-05 07:57:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

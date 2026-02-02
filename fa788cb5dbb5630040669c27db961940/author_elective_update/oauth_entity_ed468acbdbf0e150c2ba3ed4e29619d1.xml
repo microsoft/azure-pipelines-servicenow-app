@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>ad468acb77f0e15047ed075f4650f0d1</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭St5sMHLm0EDcU8tY_MDgiw==2Hn4Ilm9wLC_VLiHPlS3y-mSzDSZhv0bpdw=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>6d468acbdbf0e150c2ba3ed4e29619d1</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments>This OAuth is needed for this DTS investigation: https://dev.azure.com/mseng/AzureDevOps/_workitems/edit/1995837</comments>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>ADO DTS 1995837</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev.azure.com/vhorbachov-test/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 12:49:37</sys_created_on>
+        <sys_id>ed468acbdbf0e150c2ba3ed4e29619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO DTS 1995837</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_ed468acbdbf0e150c2ba3ed4e29619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 12:49:37</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</application>
+        <file_path/>
+        <instance_id>c917d38c6f7442004c327b2f5d3ee4b4</instance_id>
+        <instance_name>ven01306</instance_name>
+        <name>oauth_entity_ed468acbdbf0e150c2ba3ed4e29619d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>ad468acb77f0e15047ed075f4650f0d1</client_id>
+        <client_secret>﷞﷟﷒20dd3db3db970110c2ba3ed4e2961989﷬﷔1﷬﷭St5sMHLm0EDcU8tY_MDgiw==2Hn4Ilm9wLC_VLiHPlS3y-mSzDSZhv0bpdw=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>6d468acbdbf0e150c2ba3ed4e29619d1</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments>This OAuth is needed for this DTS investigation: https://dev.azure.com/mseng/AzureDevOps/_workitems/edit/1995837</comments>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>ADO DTS 1995837</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev.azure.com/vhorbachov-test/_admin/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>user_name</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 12:49:37</sys_created_on>
+        <sys_id>ed468acbdbf0e150c2ba3ed4e29619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO DTS 1995837</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_update_name>oauth_entity_ed468acbdbf0e150c2ba3ed4e29619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 12:49:37</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>]]></payload>
+        <payload_hash>-1583176638</payload_hash>
+        <record_name>ADO DTS 1995837</record_name>
+        <reverted_from/>
+        <source>fd7e483c3b8a3e50d0b6cda036e45adf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>philipsonjoseph</sys_created_by>
+        <sys_created_on>2025-12-23 12:06:00</sys_created_on>
+        <sys_id>939e40bc3b8a3e50d0b6cda036e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4b1a18fe0000001</sys_recorded_at>
+        <sys_updated_by>philipsonjoseph</sys_updated_by>
+        <sys_updated_on>2025-12-23 12:06:00</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>db9e40bc698a3e507f0dbcbe79a5dae8</update_guid>
+        <update_guid_history>db9e40bc698a3e507f0dbcbe79a5dae8:0,8ddd0cb8de8a3e50265da46566a8e2ba:1799073701,e102e0998008361094728672a362fb7b:0,07e1a45981083610d2cf5576d255f4a3:-350963938,2d5128d5ad083610c1bd3fc7b08c3418:0,4631e8957a0836107a10424544546a5b:-350963938,360fd4d1c4083610739a0ad1fe75cd81:0,042b2f8981043610664b4697cb7c9fe3:-350963938,1927101b3cb322107c422366d42408db:0,ef16dc1782b322102a208f73bbf4d0e2:-350963938,c37514d3c8b322107a8c1a2e65c9a94b:0,b8d49813e7b32210d59ba72c2fe5e1f4:-350963938,7a541c5dc07f6a501e21dbff44fdefbb:0,02d39cd99b7f6a5022f1e795aaf060ee:-350963938,2d3114193c7f6a5029d207985b93b37e:0,57601095947f6a50e98dc48a9aa69bdf:-350963938,dedc4e8f59f0e1509bcffebe02a6bd66:845949823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2026-01-04 23:57:28">5d62967c3b5676104c53354a85e45a81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-05 07:57:28</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>6dfb85c1ce7243ad9980aed131caf569</sys_id>
+        <sys_metadata>ed468acbdbf0e150c2ba3ed4e29619d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADO DTS 1995837</sys_name>
+        <sys_package display_value="Azure DevOps Pipelines" source="x_mioms_azpipeline">fa788cb5dbb5630040669c27db961940</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure DevOps Pipelines">fa788cb5dbb5630040669c27db961940</sys_scope>
+        <sys_scope_delete display_value="">2948613a2d184d88907383cc1536d584</sys_scope_delete>
+        <sys_update_name>oauth_entity_ed468acbdbf0e150c2ba3ed4e29619d1</sys_update_name>
+        <sys_update_version display_value="oauth_entity_ed468acbdbf0e150c2ba3ed4e29619d1">939e40bc3b8a3e50d0b6cda036e45ae9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-05 07:57:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
